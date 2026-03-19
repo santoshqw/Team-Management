@@ -2,12 +2,27 @@
 
 
 @theme {
-  --color-primary:red;
-  --color-primary: #1D4ED8;       
-  --color-secondary: #10B981;    
-  --color-accent: #F59E0B;        
-  --color-background: #F3F4F6;    
-  --color-card-bg: #FFFFFF;       
-  --color-text-primary: #111827;  
-  --color-text-secondary: #6B7280; 
+  /* Brand & Core Action */
+  --color-primary: #2563EB;        /* Actionable Blue */
+  --color-primary-hover: #1D4ED8; 
+  
+  /* Status-based Colors */
+  --color-success: #10B981;        /* Done / Completed */
+  --color-warning: #F59E0B;        /* In Progress / High Priority */
+  --color-danger: #EF4444;         /* Overdue / Blocked */
+  --color-info: #06B6D4;           /* Backlog / Planning */
+
+  /* UI Surfaces */
+  --color-background: #F9FAFB;     /* Neutral, soft grey to reduce eye strain */
+  --color-card-bg: #FFFFFF;        /* Clean white for task cards */
+  --color-border: #E5E7EB;         /* Subtle separators */
+
+  /* Typography */
+  --color-text-primary: #111827;   /* Headers and Task titles */
+  --color-text-secondary: #4B5563; /* Descriptions and Metadata */
+  --color-text-muted: #9CA3AF;     /* Timestamps and Placeholders */
 }
+
+
+
+
